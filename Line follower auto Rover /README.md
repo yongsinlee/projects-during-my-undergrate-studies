@@ -9,7 +9,7 @@ Raspberry Pi 4 & ROS Noetic 기반 비전 인식 자율 주행 로버
 핵심 기술: OpenCV 영상 처리, ROS Noetic 노드 통신, MAVLink 통신 프로토콜 통합
 
 ## 🛠 2. 주요 기술 스택
-Main Computing: Raspberry Pi 4 (Ubuntu 20.04, ROS Noetic)
+- Main Computing: Raspberry Pi 4 (Ubuntu 20.04, ROS Noetic)
 
 Sensor/Actuator: Pi Camera, L298N 모터 드라이버, RFD 915MHz 텔레메트리
 
