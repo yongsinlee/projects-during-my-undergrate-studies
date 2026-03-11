@@ -1,0 +1,5 @@
+Want	Day	Major	Gender	Grade	KAKAO ID	When	Where
+friend	mon	수학통계학과	남자	2	0010	4교시(영실관)	5교시(애지헌)
+friend	mon	물리천문학과	남자	2	0009	3교시(군자관)
+friend	mon	물리천문학과	여자	2	0011	4교시(영실관)
+friend	mon	수학통계학과	여자	2	0012	3교시(군자관)

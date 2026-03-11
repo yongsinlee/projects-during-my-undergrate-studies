@@ -1,0 +1,8 @@
+Want	Day	Major	Gender	Grade	KAKAO ID	When	Where
+friend	tue	물리천문학과	남자	2	167	3교시(충무관)
+friend	tue	물리천문학과	남자	2	252	2교시(충무관)
+friend	tue	물리천문학과	남자	2	553	3교시(충무관)
+friend	tue	물리천문학과	남자	2	1395	3교시(충무관)
+friend	tue	물리천문학과	남자	2	1528	2교시(충무관)
+friend	tue	물리천문학과	남자	2	1733	5교시(충무관)
+friend	tue	물리천문학과	남자	2	1944	2교시(충무관)

@@ -1,0 +1,13 @@
+23010018	여자	all	4	mon
+23010029	all	other	all	mon
+23020018	all	same	all	mon
+23020029	여자	all	all	mon
+23120018	all	same	2	tue
+23120029	all	all	all	tue
+21010514	여자	same	4	tue
+21110514	여자	all	all	tue
+23010118	all	all	all	mon
+23010129	all	other	all	mon
+23020118	여자	all	all	mon
+23020129	여자	all	4	mon
+21010512	all	all	all	mon
