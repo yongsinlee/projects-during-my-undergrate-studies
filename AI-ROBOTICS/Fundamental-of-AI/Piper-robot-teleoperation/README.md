@@ -35,7 +35,7 @@
 **이용신 (21011324)**
 
 ## 5. 참고
-agilex piper sdk 공식 github
+* **agilex piper sdk 공식 github
 : https://github.com/agilexrobotics/piper_sdk
-jatso linux 36.3 driver download path
+* **jatso linux 36.3 driver download path
 : https://developer.nvidia.com/embedded/jetson-linux-r363
