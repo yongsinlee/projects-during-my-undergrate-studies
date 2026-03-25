@@ -1,8 +1,8 @@
 
-#🚀 사용 방법 (Usage Guide)
+# 🚀 사용 방법 (Usage Guide)
 '항소개팅'을 실행하고 서비스를 이용하는 단계별 가이드입니다.
 
-##1. 프로그램 실행 (Initial Setup)
+## 1. 프로그램 실행 (Initial Setup)
 MATLAB을 실행 후 example.fig(또는 example.m) 실행
 
 ##2. 회원가입 및 로그인 (Sign-up & Login)
@@ -18,7 +18,7 @@ MATLAB을 실행 후 example.fig(또는 example.m) 실행
 
 생성한 학번과 정보를 바탕으로 로그인을 진행하여 메인 메뉴로 진입합니다.
 
-##3. GPS 데이터 업로드 및 시간표 생성 (Timetable Update)
+## 3. GPS 데이터 업로드 및 시간표 생성 (Timetable Update)
 가장 핵심적인 단계로, 본인의 GPS 로그를 기반으로 시간표를 구축합니다.
 
 Timetable 창 진입: 메뉴에서 시간표(Timetable) 관련 버튼을 클릭하여 이동합니다.
