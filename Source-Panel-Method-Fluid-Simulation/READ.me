@@ -1,1 +1,42 @@
+# Source Panel Method를 이용한 원기후 주위의 유동 해석
+**Numerical Simulation of Potential Flow around a Circular Cylinder using Source Panel Method**
 
+이 프로젝트는 공기역학적 수치 해석 기법인 **Panel Method**를 사용하여 원형 실린더 주위의 압력 계수($C_p$)와 유선(Streamline)을 계산하는 MATLAB 시뮬레이션입니다.
+
+## 1. 프로젝트 개요 (Overview)
+* **목적**: 패널법을 이용해 복잡한 형상(본 예제는 원기후) 주위의 유동을 해석하고, 포텐셜 유동의 이론값과 수치 해석 결과를 비교 검증합니다.
+* **주요 기능**:
+    * $N$-각형(기본 64개 패널)을 이용한 형상 이산화.
+    * 각 패널의 Source Strength($\lambda$) 계산을 위한 선형 시스템 구성 및 풀이.
+    * 이론적인 포텐셜 유동($1 - 4\sin^2\theta$)과 수치 해석된 $C_p$ 분포 비교.
+    * Velocity Field 계산을 통한 유선(Streamline) 및 압력장(Pressure Field) 시각화.
+
+## 2. 수치 해석 모델 (Numerical Model)
+본 코드는 각 패널에 등분포된 Source가 있다고 가정하며, 각 제어점(Control Point)에서 수직 속도 성분이 0이 되어야 한다는 **No-penetration Boundary Condition**을 적용합니다.
+
+
+
+- **Governing Equation**: 포텐셜 유동의 중첩 원리 적용
+- **Boundary Condition**: 
+  $$\vec{V} \cdot \vec{n} = 0$$
+- **Key Parameters**:
+    - `n = 64`: 패널의 개수
+    - `R = 10`: 원기후의 반지름
+    - `vel_x = 1`: 자유 유동 속도 (Freestream Velocity)
+
+## 3. 결과 분석 (Results)
+### Cp Distribution
+이론값(Potential Flow Theory)과 패널법으로 계산된 $C_p$ 값이 매우 유사하게 나타남을 확인할 수 있습니다. 패널 수가 많아질수록 이론값에 수렴합니다.
+
+### Flow Visualization
+- **Streamlines**: 원기후를 부드럽게 타고 흐르는 유선 확인.
+- **Pressure Contour**: 정체점(Stagnation Point)에서의 최대 압력과 상하단에서의 최저 압력 분포 시각화.
+
+## 4. 실행 방법 (Usage)
+1. MATLAB을 실행합니다.
+2. `panel_method_cylinder.m` (소스 코드 파일명)을 실행합니다.
+3. 생성되는 3개의 Figure를 통해 $C_p$ 비교 그래프와 유동장을 확인합니다.
+
+## 5. 기술 스택 (Tech Stack)
+- MATLAB
+- Aerospace Engineering / Fluid Dynamics
